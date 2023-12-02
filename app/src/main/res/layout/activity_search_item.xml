@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000"
+    tools:context=".SearchItemActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Item"
+        android:fontFamily="@font/xtradex"
+        android:textSize="35sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtItemId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/telorbistik"
+        android:hint="Enter Item ID"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/telorbistik"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/telorbistik"
+        android:text="Item Name:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/telorbistik"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/telorbistik"
+        android:text="Item Size:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/telorbistik"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/telorbistik"
+        android:text="Item Price:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/telorbistik"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/telorbistik"
+        android:text="Item Colour:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtColour"
+        android:layout_width="match_parent"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/telorbistik"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+</LinearLayout>
